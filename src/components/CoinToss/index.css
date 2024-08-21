@@ -1,0 +1,49 @@
+.coin-toss-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border-radius: 15px;
+}
+.heading {
+  font-size: 40px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: rgb(24, 18, 18);
+}
+.game-result {
+  font-size: 25px;
+  font-family: "Roboto";
+  color: rgb(46, 27, 63);
+}
+.toss-coin {
+  height: 70px;
+  width: 70px;
+}
+.toss-coin {
+  color: rgb(26, 70, 70);
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: "Roboto";
+  background-color: transparent;
+}
+.result-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.result{
+    font-size: 19px;
+    font-family: "Roboto";
+    color: rgb(20, 56, 44);
+}
